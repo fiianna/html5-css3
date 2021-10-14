@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 20rem;
+}
+
+#wrapper {
+    font-size: 4rem;
+    padding: 3rem;
+    border: solid orange 1rem;
+    border-radius: 1rem;
+    padding-bottom: 8rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#eka {
+    position: absolute;
+    height: 15rem;
+    width: 32rem;
+    background-color: #add8e6;
+    left: 275px;
+    top: 140px;
+    z-index: -1; 
+}
+
+#toka {
+    position: absolute;
+    height: 20rem;
+    width: 14rem;
+    background-color: #90ee9070;
+    left: 350px;
+    top: 250px;
+}
+
+#kolmas {
+    z-index: 10;
+}
+
+#kappale1 {
+    color: black;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: 200;
+    padding: 2rem;
+    letter-spacing: 1rem;
+}
+
+#kappale2 {
+    color: turquoise;
+    font-family: 'Scheherazade New', serif;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+.magenta {
+    color: white;
+    background-color: darkmagenta;
+}
